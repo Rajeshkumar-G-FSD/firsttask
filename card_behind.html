@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .testimonial-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+        }
+        .testimonial-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: left;
+            position: relative;
+            z-index: 1;
+        }
+        .testimonial-card img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .testimonial-card p {
+            font-size: 16px;
+            color: #333;
+            margin: 40px 0 10px;
+        }
+        .testimonial-card .name {
+            font-weight: bold;
+            font-size: 18px;
+            color: #000;
+        }
+        .testimonial-card .location {
+            font-size: 14px;
+            color: #777;
+        }
+        .card-behind {
+            position: absolute;
+            top: 80px; /* Adjust this value to control the overlap */
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 100px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 0; /* Ensure this card is behind the first card */
+        }
+        .card-behind p {
+            font-size: 16px;
+            color: #333;
+        }
+        .card-behind .name {
+            font-weight: bold;
+            font-size: 18px;
+            color: #000;
+        }
+        .card-behind .location {
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="testimonial-container">
+        <div class="testimonial-card">
+            <img src="about_profile.png" alt="Mike Taylor">
+            <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+            <div class="name">Mike Taylor</div>
+            <div class="location">Lahore, Pakistan</div>
+        </div>
+        <div class="card-behind">
+            <p class="name">Chris Thomas</p>
+            <p class="location">CEO of Red Button</p>
+        </div>
+    </div>
+</body>
+</html>

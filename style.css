@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.login {
+    background-color: transparent;
+    color: #333;
+}
+
+.signup {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-text h1 span {
+    color: #ff6b6b;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #666;
+}
+
+.discover-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.best-tour-awards {
+    top: 10px;
+    left: 10px;
+}
+
+.explore {
+    bottom: 10px;
+    left: 10px;
+}
+
+.customer-review {
+    bottom: 10px;
+    right: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.search-field {
+    flex: 1;
+    max-width: 200px;
+}
+
+.search-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.search-field select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.explore-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}

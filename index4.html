@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .title {
+            font-size: 36px;
+            color: #333;
+        }
+        .highlight {
+            color: #ff6600;
+        }
+        .description {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .testimonial {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .testimonial img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .testimonial-text {
+            text-align: left;
+        }
+        .testimonial-text p {
+            font-size: 16px;
+            color: #333;
+        }
+        .testimonial-text .name {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .testimonial-text .location {
+            color: #999;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .navigation button {
+            background-color: #ff6600;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50%;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .navigation button:disabled {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">What people say <span class="highlight">about us.</span></h1>
+        <p class="description">Our Clients send us bunch of smilies with our services and we love them.</p>
+        <div class="testimonial">
+            <img src="./about_profile.png" alt="User Image" width="50" height="50">
+            <div class="testimonial-text">
+                <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                <p class="name">Mike Taylor</p>
+                <p class="location">Lahore, Pakistan</p>
+            </div>
+        </div>
+        <div class="navigation">
+            <button disabled>&larr;</button>
+            <button>&rarr;</button>
+        </div>
+    </div>
+</body>
+</html>
