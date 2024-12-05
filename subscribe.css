@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.subscribe-container {
+    background-color: #ff7f2a;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    width: 600px;
+    margin: 100px auto;
+    background: url('default-image.png') no-repeat center center / cover;
+}
+
+.subscribe-content h1 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #e66a1f;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8c42;
+}
