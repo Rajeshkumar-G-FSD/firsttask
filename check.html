@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+        .text-section {
+            max-width: 50%;
+        }
+        .text-section h1 {
+            font-size: 48px;
+            color: #333;
+        }
+        .text-section h1 span {
+            color: #ff6f00;
+        }
+        .text-section p {
+            font-size: 18px;
+            color: #666;
+            margin-top: 20px;
+        }
+        .text-section .discover-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #ff6f00;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .image-section {
+            position: relative;
+            max-width: 50%;
+        }
+        .image-section img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .badge {
+            position: absolute;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+        .badge img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .badge.best-tour {
+            top: 10px;
+            left: 10px;
+        }
+        .badge.explore {
+            bottom: 10px;
+            left: 10px;
+        }
+        .badge.customer-review {
+            bottom: 10px;
+            right: 10px;
+        }
+        .flight-path {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: url('default-image.jpg') no-repeat center center;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1>Get started your <span>exciting journey</span> with us.</h1>
+            <p>A Team of experienced tourism professionals will provide you with the best advice and tips for your desired place.</p>
+            <a href="#" class="discover-btn">Discover Now</a>
+        </div>
+        <div class="image-section">
+            <img src="./traveler.png" alt="Traveler with luggage">
+           
+            <div class="flight-path"></div>
+        </div>
+    </div>
+</body>
+</html>
